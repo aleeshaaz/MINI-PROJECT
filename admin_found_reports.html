@@ -1,80 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Admin - View Found Items</title>
-  <style>
-    body {
-      background-color: #121212;
-      color: white;
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-    h1 {
-      color: #00aaff;
-      text-align: center;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-      background-color: #1e1e1e;
-      border-radius: 8px;
-      overflow: hidden;
-    }
-    th, td {
-      padding: 12px;
-      border: 1px solid #333;
-      text-align: center;
-    }
-    th {
-      background-color: #00aaff;
-      color: black;
-      font-weight: bold;
-    }
-    tr:hover {
-      background-color: #2c2c2c;
-    }
-    .btn {
-      display: inline-block;
-      padding: 8px 12px;
-      background-color: #00aaff;
-      color: black;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      cursor: pointer;
-    }
-    .btn:hover {
-      background-color: #008ecc;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Found Item Reports</title>
+<style>
+    body { margin:0; background:#000; color:#fff; font-family: Arial, sans-serif; padding:20px;}
+    h2 { text-align:center; margin-bottom:20px; }
+    table { width:100%; border-collapse: collapse; margin-top:20px; }
+    th, td { border: 1px solid #fff; padding: 10px; text-align:left; }
+    th { background-color: #3498db; color: #fff; }
+    tr:nth-child(even) { background-color: #111; }
+    tr:nth-child(odd) { background-color: #222; }
+    a.back { display:block; text-align:center; margin-top:20px; text-decoration:none; color:#3498db; font-weight:bold; }
+    a.back:hover { text-decoration:underline; }
+</style>
 </head>
 <body>
-  <h1>📌 All Found Items</h1>
-  <table>
-    <tr>
-      <th>ID</th>
-      <th>Item</th>
-      <th>Description</th>
-      <th>Category</th>
-      <th>Date Found</th>
-      <th>Location</th>
-      <th>Contact</th>
-    </tr>
-    {% for item in found_items %}
-    <tr>
-      <td>{{ item.id }}</td>
-      <td>{{ item.item_name }}</td>
-      <td>{{ item.description }}</td>
-      <td>{{ item.category }}</td>
-      <td>{{ item.date_found }}</td>
-      <td>{{ item.location_found }}</td>
-      <td>{{ item.contact_info }}</td>
-    </tr>
-    {% endfor %}
-  </table>
-  <br>
-  <a href="/admin" class="btn">⬅ Back to Admin Panel</a>
+    <h2>Found Item Reports</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Item Name</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Contact</th>
+                <th>Date Found</th>
+                <th>Location Found</th>
+                <th>Urgency</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in found_items %}
+            <tr>
+                <td>{{ item.id }}</td>
+                <td>{{ item.item_name }}</td>
+                <td>{{ item.description }}</td>
+                <td>{{ item.category }}</td>
+                <td>{{ item.contact_info }}</td>
+                <td>{{ item.date_found.strftime('%Y-%m-%d') if item.date_found else '' }}</td>
+                <td>{{ item.location_found }}</td>
+                <td>{{ item.urgency }}</td>
+
+                <td>
+                    {% if item.urgency == 'High' %}
+                        <span style="color:red;font-weight:bold;">High</span>
+                    {% elif item.urgency == 'Medium' %}
+                        <span style="color:orange;font-weight:bold;">Medium</span>
+                    {% else %}
+                        <span style="color:green;font-weight:bold;">Low</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="{{ url_for('admin_panel') }}" class="back">← Back to Admin Panel</a>
 </body>
 </html>

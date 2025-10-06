@@ -1,89 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Lost and Found Items</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #000;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            min-height: 100vh;
-            padding-top: 40px;
-            color: #fff;
-        }
-        .search-container {
-            background-color: #f5f5f5;
-            padding: 30px 40px;
-            border-radius: 12px;
-            width: 500px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
-            text-align: center;
-            color: #000;
-        }
-        h2 { margin-bottom: 20px; }
-        input, select {
-            width: 100%;
-            padding: 10px;
-            margin: 8px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            border: none;
-            border-radius: 5px;
-            color: white;
-            font-weight: bold;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            margin-top: 10px;
-        }
-        button:hover { background-color: #0056b3; }
-        .result-item {
-            border: 1px solid #ccc;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            background-color: #fff;
-            color: #000;
-            text-align: left;
-        }
-        .back-home {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 6px;
-            transition: background-color 0.3s ease;
-        }
-        .back-home:hover {
-            background-color: #2980b9;
-        }
-        .status-found { color: green; font-weight: bold; }
-        .status-notfound { color: red; font-weight: bold; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Found Items</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        padding-top: 40px;
+        color: #fff;
+    }
+    .search-container {
+        background-color: #111;
+        padding: 30px 40px;
+        border-radius: 12px;
+        width: 500px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        text-align: center;
+        color: #fff;
+    }
+    h2 { margin-bottom: 20px; }
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #3498db;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 10px;
+    }
+    button:hover { background-color: #217dbb; }
+    .result-item {
+        border: 1px solid #fff;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        background-color: #222;
+        text-align: left;
+        color: #fff;
+    }
+    .back-home {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+    }
+    .back-home:hover { background-color: #217dbb; }
+</style>
 </head>
 <body>
 <div class="search-container">
-    <h2>Search Lost Items</h2>
+    <h2>Search Found Items</h2>
 
-    <!-- 🔎 Search Form -->
-    <form method="POST" action="/search">
-        <input type="text" name="keywords" placeholder="Keywords" required>
-        <select name="category" required>
-            <option value="" disabled selected>Select Category</option>
+    <!-- Search Form -->
+<form method="POST" action="{{ url_for('search_items') }}">
+        <input type="text" name="keywords" placeholder="Item Name">
+        <input type="text" name="description" placeholder="Description">
+        <select name="category">
+            <option value="" selected>All Categories</option>
             <option>Electronics</option>
             <option>Clothing</option>
             <option>Books</option>
@@ -93,33 +90,28 @@
         <button type="submit">Search</button>
     </form>
 
-    <!-- ⬅ Back to Home -->
-    <a href="{{ url_for('home') }}" class="back-home">← Back to Home</a>
-
-    <!-- 🔎 Search Results -->
-    <div id="results">
-        {% if searched %}
-
-
-            <!-- 📦 FOUND ITEMS -->
-            {% if found_results %}
-                <h3>📦 Found Items</h3>
-                {% for found in found_results %}
+    {% if searched %}
+        <h3>Results:</h3>
+        {% if results %}
+            <div class="space-y-3 mt-2">
+                {% for item in results %}
                     <div class="result-item">
-                        <p><strong>Item Name:</strong> {{ found.item_name }}</p>
-                        <p><strong>Description:</strong> {{ found.description }}</p>
-                        <p><strong>Category:</strong> {{ found.category }}</p>
-                        <p><strong>Found On:</strong> {{ found.date_found }}</p>
-                        <p><strong>Found Location:</strong> {{ found.location_found }}</p>
-                        <p><strong>Reported By:</strong> {{ found.contact_info }}</p>
+<p><strong>Item Name:</strong> {{ item.item_name }}</p>
+<p><strong>Category:</strong> {{ item.category }}</p>
+<p><strong>Description:</strong> {{ item.description }}</p>
+<p><strong>Date Found:</strong> {{ item.date_found.strftime("%Y-%m-%d") if item.date_found else "N/A" }}</p>
+<p><strong>Location Found:</strong> {{ item.location_found if item.location_found else "Not Provided" }}</p>
+<p><strong>Contact:</strong> {{ item.contact_info }}</p>
+
                     </div>
                 {% endfor %}
-            {% else %}
-                <p>No matching found items reported.</p>
-            {% endif %}
-
+            </div>
+        {% else %}
+            <p>No matching items found.</p>
         {% endif %}
-    </div>
+    {% endif %}
+
+    <a href="{{ url_for('home') }}" class="back-home">← Back to Home</a>
 </div>
 </body>
 </html>

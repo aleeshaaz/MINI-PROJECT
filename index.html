@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +16,11 @@
             align-items: center;
             height: 100vh;
         }
+
         .container {
             text-align: center;
         }
+
         a.btn {
             display: block;
             background-color: #3498db;
@@ -28,18 +31,21 @@
             border-radius: 8px;
             font-weight: bold;
         }
+
         a.btn:hover {
             background-color: #217dbb;
         }
     </style>
 </head>
+
 <body>
-<div class="container">
-    <h1>Welcome to Lost and Found Portal</h1>
-    <a class="btn" href="{{ url_for('report_lost') }}">Report Lost Item</a>
-    <a class="btn" href="{{ url_for('report_found') }}">Report Found Item</a>
-    <a class="btn" href="{{ url_for('search_items') }}">Search Items</a>
-    <a class="btn" href="{{ url_for('admin_panel') }}">Admin Panel</a>
-</div>
+    <div class="container">
+        <h1>Welcome to Lost and Found Portal</h1>
+        <a class="btn" href="{{ url_for('report_lost') }}">Report Lost Item</a>
+        <a class="btn" href="{{ url_for('report_found') }}">Report Found Item</a>
+        <a class="btn" href="{{ url_for('search_items') }}">Search Status</a>
+        <a class="btn" href="{{ url_for('admin_panel') }}">Report Panel</a>
+    </div>
 </body>
+
 </html>

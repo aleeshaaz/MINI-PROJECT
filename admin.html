@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Admin Panel</title>
-<style>
-    body { margin:0; background:#000; color:#fff; font-family: Arial, sans-serif; display:flex; justify-content:center; align-items:center; height:100vh;}
-    .container { text-align:center;}
-    a.btn { display:block; background:#3498db; color:#fff; padding:15px; margin:10px 0; text-decoration:none; border-radius:8px; font-weight:bold;}
-    a.btn:hover { background:#217dbb;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Hub</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        a.btn {
+            display: block;
+            background: #3498db;
+            color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        a.btn:hover {
+            background: #217dbb;
+        }
+    </style>
 </head>
+
 <body>
-<div class="container">
-    <h2>Admin Panel</h2>
-    <a class="btn" href="{{ url_for('admin_lost_reports') }}">View Lost Reports</a>
-    <a class="btn" href="{{ url_for('admin_found_reports') }}">View Found Reports</a>
-    <a class="btn" href="{{ url_for('home') }}">← Back to Home</a>
-</div>
+    <div class="container">
+        <h2>Reports Hub</h2>
+        <a class="btn" href="{{ url_for('admin_lost_reports') }}">View Lost Reports</a>
+        <a class="btn" href="{{ url_for('admin_found_reports') }}">View Found Reports</a>
+        <a class="btn" href="{{ url_for('home') }}">← Back to Home</a>
+    </div>
 </body>
+
 </html>

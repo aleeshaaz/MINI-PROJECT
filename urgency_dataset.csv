@@ -1,0 +1,453 @@
+ItemName,Description,Category,Urgency
+Diary,golden Diary seen near Classroom area,Stationery,Low
+Laptop,red Laptop lost near Library area,Electronics,High
+Jacket,white Jacket found near Hostel area,Clothing,Low
+Calculator,black Calculator found near Playground area,Stationery,Moderate
+Sweater,black Sweater seen near Library area,Clothing,Low
+Diary,blue Diary found near Lab area,Stationery,Low
+Marker,silver Marker found near Canteen area,Stationery,Low
+Bracelet,black Bracelet seen near Auditorium area,Accessories,Low
+Smartwatch,red Smartwatch found near Canteen area,Electronics,Low
+Charger,red Charger misplaced near Canteen area,Electronics,Moderate
+Jacket,red Jacket misplaced near Parking Area area,Clothing,Low
+Headphones,black Headphones forgotten near Auditorium area,Electronics,Low
+Smartwatch,brown Smartwatch left near Lab area,Electronics,Low
+Pen,white Pen seen near Classroom area,Stationery,Low
+Lunch Box,silver Lunch Box seen near Canteen area,Miscellaneous,Low
+Charger,blue Charger left near Canteen area,Electronics,Moderate
+Sweater,black Sweater seen near Auditorium area,Clothing,Low
+Wallet,blue Wallet found near Bus Stop area,Accessories,High
+Tiffin,brown Tiffin left near Lab area,Miscellaneous,Low
+Phone,white Phone left near Lab area,Electronics,High
+Laptop,silver Laptop found near Playground area,Electronics,High
+Charger,blue Charger seen near Hostel area,Electronics,Moderate
+Ring,silver Ring seen near Parking Area area,Accessories,Low
+Shoes,silver Shoes left near Bus Stop area,Clothing,Low
+Sweater,silver Sweater found near Hostel area,Clothing,Low
+Book,blue Book misplaced near Canteen area,Stationery,Moderate
+Jacket,red Jacket left near Auditorium area,Clothing,Low
+Lunch Box,golden Lunch Box misplaced near Hostel area,Miscellaneous,Low
+Shoes,red Shoes forgotten near Canteen area,Clothing,Low
+Wallet,red Wallet seen near Auditorium area,Accessories,High
+Sweater,silver Sweater left near Auditorium area,Clothing,Low
+Keys,silver Keys found near Playground area,Accessories,High
+Marker,golden Marker seen near Hostel area,Stationery,Low
+Report File,blue Report File misplaced near Parking Area area,Documents,Low
+Phone,golden Phone lost near Lab area,Electronics,High
+Cap,golden Cap found near Bus Stop area,Clothing,Low
+Book,brown Book forgotten near Canteen area,Stationery,Moderate
+Lunch Box,silver Lunch Box left near Canteen area,Miscellaneous,Low
+Headphones,blue Headphones found near Hostel area,Electronics,Low
+Cap,silver Cap lost near Parking Area area,Clothing,Low
+Wallet,silver Wallet seen near Library area,Accessories,High
+Scarf,black Scarf lost near Canteen area,Clothing,Low
+Diary,blue Diary forgotten near Canteen area,Stationery,Low
+Bag,silver Bag seen near Parking Area area,Miscellaneous,Moderate
+Umbrella,brown Umbrella seen near Auditorium area,Miscellaneous,Low
+ID Card,black ID Card forgotten near Classroom area,Documents,High
+ID Card,blue ID Card seen near Lab area,Documents,High
+Library Card,red Library Card left near Classroom area,Documents,Low
+Marker,golden Marker seen near Parking Area area,Stationery,Low
+Umbrella,black Umbrella forgotten near Hostel area,Miscellaneous,Low
+Phone,blue Phone lost near Classroom area,Electronics,High
+Laptop,white Laptop misplaced near Lab area,Electronics,High
+Watch,blue Watch lost near Bus Stop area,Accessories,Moderate
+Headphones,golden Headphones seen near Hostel area,Electronics,Low
+Wallet,silver Wallet forgotten near Classroom area,Accessories,High
+Umbrella,black Umbrella seen near Auditorium area,Miscellaneous,Low
+Umbrella,brown Umbrella left near Auditorium area,Miscellaneous,Low
+Bracelet,brown Bracelet seen near Classroom area,Accessories,Low
+Laptop,brown Laptop misplaced near Canteen area,Electronics,High
+Umbrella,white Umbrella forgotten near Library area,Miscellaneous,Low
+Book,white Book found near Playground area,Stationery,Moderate
+Book,white Book seen near Playground area,Stationery,Moderate
+Wallet,black Wallet misplaced near Parking Area area,Accessories,High
+Laptop,golden Laptop left near Canteen area,Electronics,High
+Lunch Box,silver Lunch Box forgotten near Classroom area,Miscellaneous,Low
+Tiffin,brown Tiffin left near Library area,Miscellaneous,Low
+Scarf,red Scarf seen near Playground area,Clothing,Low
+Bag,silver Bag seen near Hostel area,Miscellaneous,Moderate
+Charger,blue Charger found near Library area,Electronics,Moderate
+Certificate,silver Certificate misplaced near Canteen area,Documents,Low
+Laptop,silver Laptop found near Canteen area,Electronics,High
+ID Card,brown ID Card forgotten near Canteen area,Documents,High
+Bracelet,white Bracelet left near Parking Area area,Accessories,Low
+Certificate,silver Certificate lost near Canteen area,Documents,Low
+Bracelet,brown Bracelet forgotten near Classroom area,Accessories,Low
+Laptop,white Laptop found near Parking Area area,Electronics,High
+Keys,silver Keys seen near Library area,Accessories,High
+Notebook,white Notebook left near Hostel area,Documents,Low
+Report File,black Report File seen near Playground area,Documents,Low
+Scarf,silver Scarf forgotten near Auditorium area,Clothing,Low
+Laptop,red Laptop misplaced near Playground area,Electronics,High
+Book,black Book forgotten near Lab area,Stationery,Moderate
+Jacket,silver Jacket forgotten near Auditorium area,Clothing,Low
+Bracelet,brown Bracelet found near Canteen area,Accessories,Low
+Report File,silver Report File forgotten near Bus Stop area,Documents,Low
+Wallet,golden Wallet forgotten near Bus Stop area,Accessories,High
+Ring,silver Ring found near Lab area,Accessories,Low
+Umbrella,black Umbrella lost near Canteen area,Miscellaneous,Low
+Jacket,red Jacket lost near Auditorium area,Clothing,Low
+Calculator,silver Calculator lost near Classroom area,Stationery,Moderate
+Calculator,golden Calculator misplaced near Classroom area,Stationery,Moderate
+Book,golden Book lost near Parking Area area,Stationery,Moderate
+Report File,white Report File misplaced near Hostel area,Documents,Low
+Calculator,blue Calculator seen near Bus Stop area,Stationery,Moderate
+Sweater,white Sweater misplaced near Playground area,Clothing,Low
+Notebook,blue Notebook seen near Classroom area,Documents,Low
+Ring,golden Ring lost near Lab area,Accessories,Low
+Book,blue Book left near Bus Stop area,Stationery,Moderate
+Wallet,silver Wallet found near Canteen area,Accessories,High
+Sweater,golden Sweater seen near Canteen area,Clothing,Low
+Watch,silver Watch lost near Canteen area,Accessories,Moderate
+Book,golden Book lost near Lab area,Stationery,Moderate
+Pen,red Pen found near Bus Stop area,Stationery,Low
+Report File,golden Report File found near Library area,Documents,Low
+Report File,black Report File seen near Library area,Documents,Moderate
+Tiffin,brown Tiffin left near Library area,Miscellaneous,Low
+Notebook,silver Notebook misplaced near Playground area,Documents,Low
+Shoes,black Shoes lost near Hostel area,Clothing,Low
+Water Bottle,silver Water Bottle left near Library area,Miscellaneous,Low
+Notebook,golden Notebook found near Playground area,Documents,Low
+ID Card,blue ID Card seen near Canteen area,Documents,High
+Notebook,red Notebook seen near Playground area,Documents,Low
+Book,brown Book left near Library area,Stationery,Moderate
+Cap,silver Cap forgotten near Lab area,Clothing,Low
+Marker,black Marker left near Canteen area,Stationery,Low
+Calculator,golden Calculator misplaced near Parking Area area,Stationery,Moderate
+Water Bottle,blue Water Bottle found near Parking Area area,Miscellaneous,Low
+Smartwatch,red Smartwatch found near Lab area,Electronics,Low
+Certificate,golden Certificate found near Classroom area,Documents,High
+Pen,black Pen seen near Library area,Stationery,Low
+Charger,red Charger found near Bus Stop area,Electronics,Moderate
+Cap,black Cap found near Lab area,Clothing,Low
+Shoes,golden Shoes misplaced near Classroom area,Clothing,Low
+Charger,red Charger left near Canteen area,Electronics,Moderate
+Tiffin,brown Tiffin seen near Hostel area,Miscellaneous,Low
+Sweater,golden Sweater lost near Classroom area,Clothing,Low
+Headphones,blue Headphones misplaced near Classroom area,Electronics,moderate
+Book,silver Book misplaced near Auditorium area,Stationery,Moderate
+Water Bottle,brown Water Bottle left near Bus Stop area,Miscellaneous,Low
+Umbrella,brown Umbrella found near Parking Area area,Miscellaneous,Low
+Shoes,black Shoes misplaced near Playground area,Clothing,Low
+Ring,silver Ring found near Parking Area area,Accessories,Low
+Pen,silver Pen seen near Lab area,Stationery,Low
+Shoes,white Shoes forgotten near Playground area,Clothing,Low
+Certificate,brown Certificate forgotten near Classroom area,Documents,Low
+Cap,red Cap left near Playground area,Clothing,Low
+Cap,black Cap seen near Parking Area area,Clothing,Low
+ID Card,golden ID Card seen near Auditorium area,Documents,High
+Umbrella,golden Umbrella seen near Playground area,Miscellaneous,Low
+Laptop,red Laptop left near Auditorium area,Electronics,High
+Pen,silver Pen left near Lab area,Stationery,Low
+Calculator,black Calculator lost near Lab area,Stationery,Moderate
+Keys,white Keys found near Hostel area,Accessories,High
+Scarf,brown Scarf forgotten near Library area,Clothing,Low
+Scarf,silver Scarf misplaced near Hostel area,Clothing,Low
+Headphones,golden Headphones seen near Library area,Electronics,Low
+Notebook,brown Notebook found near Classroom area,Documents,Low
+Ring,silver Ring found near Library area,Accessories,Low
+Charger,silver Charger left near Lab area,Electronics,Moderate
+Library Card,silver Library Card forgotten near Hostel area,Documents,Low
+Laptop,blue Laptop forgotten near Classroom area,Electronics,High
+Sweater,white Sweater misplaced near Library area,Clothing,Low
+Diary,silver Diary seen near Canteen area,Stationery,Low
+Jacket,brown Jacket forgotten near Canteen area,Clothing,Low
+Library Card,white Library Card seen near Library area,Documents,Low
+Lunch Box,silver Lunch Box seen near Bus Stop area,Miscellaneous,Low
+Charger,white Charger lost near Auditorium area,Electronics,Moderate
+Phone,red Phone seen near Auditorium area,Electronics,High
+Lunch Box,red Lunch Box left near Hostel area,Miscellaneous,Low
+ID Card,red ID Card lost near Hostel area,Documents,High
+Library Card,blue Library Card left near Bus Stop area,Documents,Low
+Diary,silver Diary lost near Classroom area,Stationery,Low
+Watch,blue Watch forgotten near Classroom area,Accessories,Moderate
+Charger,red Charger found near Canteen area,Electronics,Moderate
+Book,black Book lost near Classroom area,Stationery,Moderate
+Certificate,golden Certificate misplaced near Classroom area,Documents,Low
+Lunch Box,brown Lunch Box lost near Playground area,Miscellaneous,Low
+Lunch Box,golden Lunch Box lost near Auditorium area,Miscellaneous,Low
+Lunch Box,blue Lunch Box forgotten near Canteen area,Miscellaneous,Low
+Water Bottle,black Water Bottle seen near Hostel area,Miscellaneous,Low
+Pen,white Pen forgotten near Bus Stop area,Stationery,Low
+Water Bottle,red Water Bottle forgotten near Playground area,Miscellaneous,Low
+Smartwatch,white Smartwatch left near Bus Stop area,Electronics,Low
+Jacket,blue Jacket found near Library area,Clothing,Low
+Phone,white Phone seen near Parking Area area,Electronics,High
+Phone,silver Phone seen near Canteen area,Electronics,High
+Cap,silver Cap left near Playground area,Clothing,Low
+Marker,black Marker left near Auditorium area,Stationery,Low
+Notebook,red Notebook lost near Library area,Documents,Low
+Water Bottle,silver Water Bottle forgotten near Playground area,Miscellaneous,Low
+Library Card,silver Library Card forgotten near Library area,Documents,Low
+Report File,red Report File lost near Playground area,Documents,Low
+Marker,blue Marker forgotten near Library area,Stationery,Low
+ID Card,red ID Card lost near Canteen area,Documents,High
+Scarf,white Scarf forgotten near Classroom area,Clothing,Low
+Book,brown Book seen near Auditorium area,Stationery,Moderate
+ID Card,white ID Card found near Lab area,Documents,High
+Cap,white Cap lost near Playground area,Clothing,Low
+Headphones,blue Headphones lost near Playground area,Electronics,Low
+Certificate,white Certificate found near Classroom area,Documents,Low
+Book,brown Book misplaced near Lab area,Stationery,Moderate
+Diary,blue Diary left near Parking Area area,Stationery,Low
+Bracelet,blue Bracelet lost near Lab area,Accessories,Low
+Report File,golden Report File left near Canteen area,Documents,Low
+Charger,black Charger misplaced near Playground area,Electronics,Moderate
+Report File,red Report File found near Classroom area,Documents,Low
+Shoes,blue Shoes lost near Hostel area,Clothing,Low
+Headphones,black Headphones found near Playground area,Electronics,Low
+Certificate,brown Certificate lost near Bus Stop area,Documents,Low
+Charger,silver Charger left near Bus Stop area,Electronics,Moderate
+Laptop,white Laptop left near Playground area,Electronics,High
+Certificate,silver Certificate misplaced near Auditorium area,Documents,Low
+Smartwatch,golden Smartwatch misplaced near Hostel area,Electronics,Low
+Marker,brown Marker found near Bus Stop area,Stationery,Low
+Diary,silver Diary seen near Playground area,Stationery,Low
+Scarf,golden Scarf misplaced near Canteen area,Clothing,Low
+ID Card,black ID Card left near Canteen area,Documents,High
+Water Bottle,silver Water Bottle misplaced near Playground area,Miscellaneous,Low
+Marker,silver Marker misplaced near Library area,Stationery,Low
+Certificate,silver Certificate seen near Bus Stop area,Documents,Low
+Pen,golden Pen misplaced near Lab area,Stationery,Low
+Marker,golden Marker found near Auditorium area,Stationery,Low
+ID Card,silver ID Card found near Library area,Documents,High
+Laptop,white Laptop found near Canteen area,Electronics,High
+Certificate,brown Certificate seen near Classroom area,Documents,Low
+Report File,blue Report File lost near Classroom area,Documents,Low
+Cap,red Cap misplaced near Canteen area,Clothing,Low
+Diary,brown Diary misplaced near Hostel area,Stationery,Low
+Scarf,white Scarf left near Lab area,Clothing,Low
+Water Bottle,black Water Bottle found near Classroom area,Miscellaneous,Low
+Water Bottle,brown Water Bottle left near Playground area,Miscellaneous,Low
+Charger,black Charger seen near Hostel area,Electronics,Moderate
+Cap,golden Cap forgotten near Lab area,Clothing,Low
+Certificate,golden Certificate found near Playground area,Documents,Low
+Book,red Book seen near Library area,Stationery,Moderate
+Notebook,white Notebook found near Lab area,Documents,Low
+ID Card,red ID Card found near Auditorium area,Documents,High
+Sweater,brown Sweater misplaced near Library area,Clothing,Low
+Keys,brown Keys forgotten near Parking Area area,Accessories,High
+Certificate,black Certificate lost near Lab area,Documents,Low
+Cap,silver Cap left near Parking Area area,Clothing,Low
+Scarf,golden Scarf left near Bus Stop area,Clothing,Low
+Bag,white Bag lost near Library area,Miscellaneous,Moderate
+Wallet,red Wallet found near Canteen area,Accessories,High
+Watch,silver Watch misplaced near Library area,Accessories,Moderate
+Report File,brown Report File misplaced near Playground area,Documents,Low
+Tiffin,red Tiffin forgotten near Playground area,Miscellaneous,Low
+Water Bottle,silver Water Bottle forgotten near Playground area,Miscellaneous,Low
+Marker,brown Marker seen near Parking Area area,Stationery,Low
+Headphones,blue Headphones lost near Lab area,Electronics,Low
+Bracelet,blue Bracelet seen near Bus Stop area,Accessories,Low
+Notebook,red Notebook lost near Library area,Documents,Low
+Bag,brown Bag forgotten near Auditorium area,Miscellaneous,Moderate
+Lunch Box,brown Lunch Box left near Parking Area area,Miscellaneous,Low
+Book,white Book forgotten near Parking Area area,Stationery,Moderate
+Keys,golden Keys found near Canteen area,Accessories,High
+Book,golden Book seen near Bus Stop area,Stationery,Moderate
+Marker,red Marker lost near Auditorium area,Stationery,Low
+Bracelet,red Bracelet found near Canteen area,Accessories,Low
+Library Card,golden Library Card found near Playground area,Documents,Low
+Sweater,silver Sweater misplaced near Parking Area area,Clothing,Low
+Pen,blue Pen left near Canteen area,Stationery,Low
+Bag,brown Bag forgotten near Lab area,Miscellaneous,Moderate
+Library Card,blue Library Card found near Auditorium area,Documents,Low
+Watch,black Watch seen near Bus Stop area,Accessories,Moderate
+Umbrella,silver Umbrella seen near Classroom area,Miscellaneous,Low
+Smartwatch,black Smartwatch forgotten near Playground area,Electronics,Low
+Pen,brown Pen seen near Library area,Stationery,Low
+Umbrella,silver Umbrella left near Playground area,Miscellaneous,Low
+Sweater,black Sweater misplaced near Lab area,Clothing,Low
+Tiffin,golden Tiffin forgotten near Auditorium area,Miscellaneous,Low
+Ring,black Ring left near Classroom area,Accessories,Low
+Ring,silver Ring lost near Canteen area,Accessories,Low
+Scarf,silver Scarf seen near Playground area,Clothing,Low
+Sweater,black Sweater left near Lab area,Clothing,Low
+Jacket,golden Jacket left near Bus Stop area,Clothing,Low
+Scarf,white Scarf found near Lab area,Clothing,Low
+Jacket,red Jacket left near Lab area,Clothing,Low
+Umbrella,silver Umbrella misplaced near Lab area,Miscellaneous,Low
+Pen,black Pen left near Classroom area,Stationery,Low
+Cap,white Cap misplaced near Hostel area,Clothing,Low
+Marker,blue Marker forgotten near Library area,Stationery,Low
+Headphones,golden Headphones left near Playground area,Electronics,Low
+Phone,blue Phone lost near Bus Stop area,Electronics,High
+Laptop,red Laptop forgotten near Canteen area,Electronics,High
+Shoes,white Shoes found near Playground area,Clothing,Low
+Charger,white Charger found near Library area,Electronics,Moderate
+Ring,blue Ring left near Library area,Accessories,Low
+Cap,golden Cap left near Hostel area,Clothing,Low
+Jacket,brown Jacket seen near Auditorium area,Clothing,Low
+Calculator,white Calculator left near Library area,Stationery,Moderate
+Water Bottle,brown Water Bottle misplaced near Auditorium area,Miscellaneous,Low
+Umbrella,red Umbrella left near Parking Area area,Miscellaneous,Low
+Headphones,black Headphones lost near Canteen area,Electronics,Low
+Report File,golden Report File found near Bus Stop area,Documents,Low
+Laptop,red Laptop left near Library area,Electronics,High
+Diary,black Diary found near Canteen area,Stationery,Low
+Scarf,black Scarf forgotten near Parking Area area,Clothing,Low
+Sweater,brown Sweater forgotten near Lab area,Clothing,Low
+Book,blue Book left near Canteen area,Stationery,Moderate
+Certificate,brown Certificate forgotten near Playground area,Documents,Low
+Marker,brown Marker forgotten near Auditorium area,Stationery,Low
+Tiffin,brown Tiffin lost near Hostel area,Miscellaneous,Low
+Jacket,silver Jacket misplaced near Hostel area,Clothing,Low
+Calculator,red Calculator found near Auditorium area,Stationery,Moderate
+Shoes,golden Shoes lost near Hostel area,Clothing,Low
+Pen,black Pen lost near Classroom area,Stationery,Low
+Water Bottle,brown Water Bottle forgotten near Parking Area area,Miscellaneous,Low
+ID Card,black ID Card seen near Classroom area,Documents,High
+Certificate,golden Certificate misplaced near Hostel area,Documents,Low
+Scarf,brown Scarf forgotten near Library area,Clothing,Low
+Marker,blue Marker seen near Parking Area area,Stationery,Low
+Jacket,red Jacket lost near Bus Stop area,Clothing,Low
+Lunch Box,golden Lunch Box misplaced near Playground area,Miscellaneous,Low
+Sweater,brown Sweater found near Canteen area,Clothing,Low
+Watch,golden Watch misplaced near Lab area,Accessories,Moderate
+Library Card,black Library Card seen near Lab area,Documents,Low
+Scarf,brown Scarf lost near Bus Stop area,Clothing,Low
+Bag,golden Bag found near Canteen area,Miscellaneous,Moderate
+Calculator,black Calculator seen near Auditorium area,Stationery,Moderate
+Smartwatch,red Smartwatch seen near Lab area,Electronics,Low
+Phone,golden Phone found near Hostel area,Electronics,High
+Lunch Box,blue Lunch Box misplaced near Bus Stop area,Miscellaneous,Low
+Wallet,black Wallet forgotten near Library area,Accessories,High
+Scarf,blue Scarf misplaced near Bus Stop area,Clothing,Low
+Library Card,silver Library Card found near Library area,Documents,Low
+Tiffin,black Tiffin seen near Lab area,Miscellaneous,Low
+Certificate,white Certificate seen near Bus Stop area,Documents,Low
+Certificate,black Certificate left near Playground area,Documents,Low
+Calculator,blue Calculator left near Parking Area area,Stationery,Moderate
+Watch,brown Watch forgotten near Auditorium area,Accessories,Moderate
+Shoes,black Shoes misplaced near Parking Area area,Clothing,Low
+Laptop,black Laptop misplaced near Canteen area,Electronics,High
+Sweater,blue Sweater found near Hostel area,Clothing,Low
+Certificate,black Certificate misplaced near Lab area,Documents,Low
+Bag,red Bag left near Parking Area area,Miscellaneous,Moderate
+Jacket,blue Jacket found near Classroom area,Clothing,Low
+Smartwatch,golden Smartwatch found near Playground area,Electronics,Low
+Jacket,black Jacket found near Auditorium area,Clothing,Low
+Sweater,white Sweater lost near Auditorium area,Clothing,Low
+Sweater,red Sweater misplaced near Bus Stop area,Clothing,Low
+Pen,red Pen seen near Lab area,Stationery,Low
+Library Card,silver Library Card misplaced near Lab area,Documents,Low
+Calculator,red Calculator seen near Lab area,Stationery,Moderate
+Report File,blue Report File found near Library area,Documents,Low
+Ring,white Ring found near Classroom area,Accessories,Low
+Book,blue Book seen near Lab area,Stationery,Moderate
+Shoes,silver Shoes lost near Library area,Clothing,Low
+Calculator,white Calculator misplaced near Parking Area area,Stationery,Moderate
+Ring,silver Ring left near Bus Stop area,Accessories,Low
+Certificate,black Certificate forgotten near Classroom area,Documents,Low
+ID Card,white ID Card left near Canteen area,Documents,High
+Smartwatch,golden Smartwatch left near Parking Area area,Electronics,Low
+Library Card,silver Library Card forgotten near Canteen area,Documents,Low
+Bag,silver Bag found near Playground area,Miscellaneous,Moderate
+Laptop,white Laptop lost near Playground area,Electronics,High
+Pen,golden Pen found near Hostel area,Stationery,Low
+Headphones,red Headphones forgotten near Lab area,Electronics,Low
+Phone,black Phone misplaced near Auditorium area,Electronics,High
+Library Card,white Library Card seen near Lab area,Documents,Low
+Jacket,blue Jacket found near Parking Area area,Clothing,Low
+Watch,white Watch seen near Bus Stop area,Accessories,Moderate
+Library Card,black Library Card found near Library area,Documents,Low
+ID Card,red ID Card misplaced near Classroom area,Documents,High
+ID Card,red ID Card found near Hostel area,Documents,High
+Water Bottle,brown Water Bottle seen near Library area,Miscellaneous,Low
+Water Bottle,golden Water Bottle forgotten near Parking Area area,Miscellaneous,Low
+Charger,brown Charger lost near Parking Area area,Electronics,Moderate
+Ring,red Ring lost near Library area,Accessories,Low
+Marker,red Marker found near Auditorium area,Stationery,Low
+Headphones,blue Headphones found near Hostel area,Electronics,Low
+Watch,golden Watch forgotten near Auditorium area,Accessories,Moderate
+Marker,white Marker found near Lab area,Stationery,Low
+Sweater,golden Sweater lost near Library area,Clothing,Low
+Jacket,black Jacket left near Playground area,Clothing,Low
+Sweater,silver Sweater forgotten near Hostel area,Clothing,Low
+Wallet,red Wallet seen near Lab area,Accessories,High
+Bracelet,white Bracelet misplaced near Classroom area,Accessories,Low
+Laptop,blue Laptop forgotten near Lab area,Electronics,High
+Lunch Box,blue Lunch Box misplaced near Playground area,Miscellaneous,Low
+Phone,white Phone lost near Playground area,Electronics,High
+Jacket,brown Jacket misplaced near Auditorium area,Clothing,Low
+Bracelet,brown Bracelet misplaced near Parking Area area,Accessories,Low
+Tiffin,black Tiffin left near Canteen area,Miscellaneous,Low
+Marker,black Marker left near Auditorium area,Stationery,Low
+Shoes,golden Shoes misplaced near Lab area,Clothing,Low
+Lunch Box,white Lunch Box misplaced near Canteen area,Miscellaneous,Low
+Notebook,golden Notebook left near Canteen area,Documents,Low
+Book,golden Book forgotten near Playground area,Stationery,Moderate
+Bag,golden Bag misplaced near Classroom area,Miscellaneous,Moderate
+Certificate,white Certificate seen near Hostel area,Documents,Moderate
+Notebook,blue Notebook misplaced near Canteen area,Documents,Low
+Bag,blue Bag forgotten near Bus Stop area,Miscellaneous,Moderate
+Pen,golden Pen found near Lab area,Stationery,Low
+Bag,silver Bag forgotten near Classroom area,Miscellaneous,Moderate
+Jacket,white Jacket misplaced near Hostel area,Clothing,Low
+Cap,golden Cap found near Bus Stop area,Clothing,Low
+Tiffin,black Tiffin forgotten near Parking Area area,Miscellaneous,Low
+Wallet,blue Wallet forgotten near Playground area,Accessories,High
+Diary,silver Diary misplaced near Auditorium area,Stationery,Low
+Book,red Book lost near Hostel area,Stationery,Moderate
+Marker,red Marker forgotten near Hostel area,Stationery,Low
+Wallet,black Wallet left near Parking Area area,Accessories,High
+Calculator,white Calculator seen near Auditorium area,Stationery,Moderate
+Umbrella,silver Umbrella lost near Classroom area,Miscellaneous,Low
+Headphones,white Headphones found near Parking Area area,Electronics,Low
+Sweater,blue Sweater forgotten near Parking Area area,Clothing,Low
+Jacket,white Jacket left near Lab area,Clothing,Low
+Sweater,golden Sweater seen near Parking Area area,Clothing,Low
+Shoes,silver Shoes misplaced near Bus Stop area,Clothing,Low
+Lunch Box,brown Lunch Box seen near Library area,Miscellaneous,Low
+Cap,blue Cap forgotten near Playground area,Clothing,Low
+Jacket,red Jacket seen near Hostel area,Clothing,Low
+Cap,blue Cap lost near Bus Stop area,Clothing,Low
+Notebook,black Notebook forgotten near Hostel area,Documents,Low
+Umbrella,silver Umbrella misplaced near Classroom area,Miscellaneous,moderate
+Diary,blue Diary lost near Parking Area area,Stationery,Low
+Pen,silver Pen left near Parking Area area,Stationery,Low
+Cap,blue Cap found near Auditorium area,Clothing,Low
+Marker,golden Marker seen near Hostel area,Stationery,Low
+Sweater,brown Sweater found near Auditorium area,Clothing,Low
+Tiffin,red Tiffin left near Bus Stop area,Miscellaneous,Low
+Tiffin,black Tiffin misplaced near Lab area,Miscellaneous,Low
+Notebook,silver Notebook forgotten near Bus Stop area,Documents,Low
+Scarf,blue Scarf left near Classroom area,Clothing,Low
+Certificate,silver Certificate found near Lab area,Documents,Low
+Laptop,silver Laptop lost near Parking Area area,Electronics,High
+Book,golden Book forgotten near Parking Area area,Stationery,Moderate
+Water Bottle,golden Water Bottle found near Parking Area area,Miscellaneous,Low
+Certificate,black Certificate found near Parking Area area,Documents,High
+Report File,black Report File seen near Hostel area,Documents,Low
+Lunch Box,silver Lunch Box lost near Hostel area,Miscellaneous,Low
+Jacket,brown Jacket left near Lab area,Clothing,Low
+ID Card,blue ID Card found near Parking Area area,Documents,High
+Laptop,white Laptop seen near Hostel area,Electronics,High
+Bag,white Bag misplaced near Bus Stop area,Miscellaneous,Moderate
+Sweater,silver Sweater misplaced near Parking Area area,Clothing,Low
+Library Card,silver Library Card seen near Auditorium area,Documents,Low
+Cap,white Cap seen near Lab area,Clothing,Low
+Phone,red Phone seen near Auditorium area,Electronics,High
+Cap,red Cap left near Bus Stop area,Clothing,Low
+Diary,black Diary seen near Library area,Stationery,Low
+Book,red Book lost near Parking Area area,Stationery,Moderate
+Umbrella,brown Umbrella misplaced near Classroom area,Miscellaneous,Low
+Headphones,red Headphones left near Playground area,Electronics,Low
+Smartwatch,white Smartwatch lost near Canteen area,Electronics,Low
+Lunch Box,blue Lunch Box forgotten at Classroom,Miscellaneous,Low
+Library Card,brown Library Card found near Classroom a,Documents,Low
+Marker,brown Marker lost near Parking Area ,Stationery,Low
+Umbrella,blue Umbrella left near Auditorium area,Miscellaneous,Low
+Phone,silver Phone left near Canteen area,Electronics,High
+Charger,brown Charger forgotten near Lab area,Electronics,Moderate
+Smartwatch,white Smartwatch lost at library,Electronics,Low
+Watch,red Watch left near Canteen area,Accessories,Moderate
+Scarf,white Scarf lost near Parking area,Clothing,Low
+Report File,blue Report File forgotten near Library area,Documents,Low
+Pen,golden Pen lost near Hostel area,Stationery,Low
+Scarf,white Scarf lost near Auditorium area,Clothing,Low
+Headphones,white Headphones left near Auditorium area,Electronics,Low
+Charger,white Charger forgotten near Library area,Electronics,Moderate
+ring,gold lost near washroom,Accessories,High
+pendrive,lost in lab,Electronics,High
